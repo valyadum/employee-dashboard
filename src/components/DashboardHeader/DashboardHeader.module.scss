@@ -1,0 +1,33 @@
+.header{
+        position: relative;
+        width: 100%;
+::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #F1F2F6;
+        top: 114px;
+        left: 0;
+        position: absolute;
+        padding: 0;
+    }
+}
+.container{
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1116px;
+
+h2{
+    color: #404D61;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 0.78;
+}
+}
+.group{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

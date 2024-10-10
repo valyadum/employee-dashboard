@@ -1,0 +1,35 @@
+.userCard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+    button{
+        background-color: #fff;
+        border-radius: 5px;
+        border: 0.5px solid #E0E0E0;
+        padding: 6px 13px 5px;
+        transition: transform 0.3s ease;
+        display: flex;
+        align-items: center;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .name{
+    color: #404D61;
+        font-size: 18px;
+        font-weight: 500;
+        line-height:1.22;
+}
+    p{
+        color: #5A6474;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 1.83;
+    }
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

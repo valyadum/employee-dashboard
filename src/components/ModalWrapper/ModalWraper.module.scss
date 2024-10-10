@@ -1,0 +1,29 @@
+.backDrop{
+    position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #625b5ba1;
+}
+.modalContainer{
+    position: relative;
+        width: 100%;
+        min-height: 130px;
+        border-radius: 8px;
+        padding: 24px;
+        color: #111;
+        background: #fff;
+        height: 500px;
+        width:450px;
+}
+.modalCloseButton{
+    position: absolute;
+        top: 14px;
+        right: 14px;
+        background-color: transparent;
+        padding: 0;
+}

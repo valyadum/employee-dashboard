@@ -1,0 +1,53 @@
+.container{
+    padding: 30px;
+}
+.infoTitle{
+    color: #404D61;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 0.91;
+        margin-bottom: 29px;
+        p{
+            color: #757D8A;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.37;
+        }
+}
+.card{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    width: 226px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 16px;
+        color: #757D8A;
+        .title{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            margin-bottom: 15px; 
+        }
+        .money{
+            color: #404D61;
+            font-size: 22px;
+            font-weight: 600;
+        }
+}
+.active{
+    background-color: #5B6AD0;
+    color: #fff;
+svg{
+    fill:#fff;
+}
+.money{
+    color: #fff;
+}
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+}

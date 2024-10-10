@@ -1,0 +1,23 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #5B6AD0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 470px;
+    background-color: #fff;
+}
+
+
+.searchInput {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.border{
+    border:5px solid #E2E6FF ;
+    background-color: #E2E6FF;
+    border-radius: 10px;
+}

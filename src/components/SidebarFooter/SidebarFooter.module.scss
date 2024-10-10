@@ -1,0 +1,17 @@
+.barBtn{
+display: flex;
+flex-direction: column;
+gap: 10px;
+    button{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap:23px;
+color: #757D8A;
+padding: 10px 15px;
+&:hover{
+    background-color: #fff;
+    border-radius: 5px;
+}
+    }
+}

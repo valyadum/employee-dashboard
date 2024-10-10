@@ -1,0 +1,10 @@
+@mixin on-desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
+@mixin on-laptop {
+    @media (min-width: $laptop) and (max-width: $desktop) {
+        @content;
+    }
+}
